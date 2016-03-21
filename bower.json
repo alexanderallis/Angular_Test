@@ -1,0 +1,21 @@
+{
+  "name": "Angular Test",
+  "authors": [
+    "alexanderallis <alexandreallis@gmail.com>"
+  ],
+  "description": "test of angular",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.5.2"
+  }
+}

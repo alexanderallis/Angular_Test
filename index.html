@@ -1,0 +1,27 @@
+<DOCTYPE html>
+<html ng-app="store">
+  <head>
+    <title>Sample AngularJS Controller</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+        <h1>{{"hello " + "you"}}</h1>
+        <!-- <input type="text" ng-model="title"> -->
+    </div>
+    <div class="insert">
+    </div>
+
+    <div ng-controller="index">
+	<button ng-click="getUser()">Get User</button>
+	Name: <input ng-model="user.id" />
+	<!-- Email: <input ng-model="user.bohoo" /> -->
+  <!-- Stuff: <input ng-model="stuff.bohoo" /> -->
+	<button ng-click="postUser()">Post User</button>
+</div>
+  </body>
+</html>
